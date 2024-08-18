@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function SignIn(){
   return (
-    <div className="flex flex-col justify-between h-full">
+    <div className="flex flex-col justify-between h-full py-[72px] px-[80px]">
       <form>
         <h1 className="font-title text-gray-500 text-2xl font-bold">Acesse sua conta</h1>
         <p className="text-gray-300">Informe seu e-mail e senha para entrar</p>
