@@ -1,9 +1,11 @@
-import { NavLink } from "./nav-link";
+import { NavLink } from "./nav-link"
+
+import logo from '@/assets/Logo.svg'
 
 export function Header(){
   return (
     <header className="flex justify-between items-center p-6 border-shape border-b-[1px]">
-      <img src="" alt="" />
+      <img className="h-10" src={logo} />
 
       <nav className="flex gap-2">
         <NavLink to='/'>
