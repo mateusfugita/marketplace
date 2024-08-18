@@ -8,14 +8,14 @@ export function SignIn(){
         <p className="text-gray-300">Informe seu e-mail e senha para entrar</p>
 
         <div className="flex flex-col gap-5 my-12">
-          <div className="space-y-2">
-            <label htmlFor="email">E-mail</label>
-            <input className="w-full border-b-[1px] placeholder:Seu-email cadastrado" type="email" name="email" id="email" />
+          <div>
+            <label className="text-gray-300 uppercase" htmlFor="email">E-mail</label>
+            <input placeholder="Seu-email cadastrado" className="w-full py-3 border-b-[1px] border-gray-100 placeholder:text-gray-200" type="email" name="email" id="email" />
           </div>
 
-          <div className="space-y-2">
-            <label htmlFor="password">Senha</label>
-            <input className="w-full border-b-[1px] placeholder:Seu-email cadastrado" type="password" name="password" id="password" />
+          <div>
+            <label className="text-gray-300 uppercase" htmlFor="password">Senha</label>
+            <input placeholder="Sua senha de acesso" className="w-full py-3 border-b-[1px] border-gray-100 placeholder:text-gray-200" type="password" name="password" id="password" />
           </div>
         </div>
 
